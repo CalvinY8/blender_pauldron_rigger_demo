@@ -1,22 +1,22 @@
 #---------------------------------TASKS COMPLETED-----------------------------------
 #script works regardless of upper arm bone length[x]
 
-#check for y-displacement of shoulder.head and shoulder.tail[x]
+#check for y-displacement of upper_arm.head and upper_arm.tail[x]
 
-#detect if shoulder.head().y coord doesn't match shoulder.tail().y coord in checkbones [x]
+#detect if upper_arm.head().y-coord doesn't match upper_arm.tail().y-coord[x]
 
-#bone roll enforcement, any copier/swivelArm/xz_rotator bones all have their rolls recalculated to +x axis global[x]
+#bone roll enforcement, any copier/swivelArm/xz_rotator bones all have their rolls recalculated to global +x axis [x]
 
-#have picker for armature[x]
+#have eyedropper for armature[x]
 
 #have each pauldrion rig bone be created as non-deform bones [x]
 
-#modify the duplicate_bone() so that it accepts parent_bone_name [x]
+#modify duplicate_bone() so that it accepts parent_bone_name [x]
 
 #arm pose detection [x]
 
 #add eyedropper text field to select pauldron object[x] and armature object [x]
-#   which would require checks and warning messages that the script will only run if both objects are filled
+#  required checks and warning messages that the script will only run if both objects are filled
 
 
  
