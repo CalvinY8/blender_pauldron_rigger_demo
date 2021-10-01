@@ -8,8 +8,6 @@ https://www.youtube.com/watch?v=z6voeScUOtI
 
 #works with A-pose and T-pose
 
-#pauldron rigging bones are generated relative to shoulder bone size
-
 #works regardless of armature size or shoulder width
 
-#script runs regardless of upper arm bone length
+#works regardless of upper arm bone length
