@@ -1,0 +1,33 @@
+#---------------------------------TASKS COMPLETED-----------------------------------
+#script works regardless of upper arm bone length[x]
+
+#check for y-displacement of shoulder.head and shoulder.tail[x]
+
+#detect if shoulder.head().y coord doesn't match shoulder.tail().y coord in checkbones [x]
+
+#bone roll enforcement, any copier/swivelArm/xz_rotator bones all have their rolls recalculated to +x axis global[x]
+
+#have picker for armature[x]
+
+#have each pauldrion rig bone be created as non-deform bones [x]
+
+#modify the duplicate_bone() so that it accepts parent_bone_name [x]
+
+#arm pose detection [x]
+
+
+#in Test Panel, add eyedropper text field to select pauldron object[wip] and armature object [wip]
+#   which would require checks and warning messages that the script will only run if both objects are filled
+
+
+ 
+#------------------------------------------- NOTES FOR DEVELOPER--------------------------
+#how to view system console to see errors(ubuntu):
+#ubuntu terminal > whereis blender
+#cd snap/bin
+#blender
+#press enter
+#messages now appear in terminal
+#warning: closing term. will also kill blender w/o saving.
+
+
