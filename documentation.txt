@@ -15,8 +15,7 @@
 
 #arm pose detection [x]
 
-
-#in Test Panel, add eyedropper text field to select pauldron object[wip] and armature object [wip]
+#add eyedropper text field to select pauldron object[x] and armature object [x]
 #   which would require checks and warning messages that the script will only run if both objects are filled
 
 
