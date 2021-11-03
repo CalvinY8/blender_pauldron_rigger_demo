@@ -2,7 +2,7 @@
 sample code in this repo.
 
 full script demo:
-https://www.youtube.com/watch?v=OyTkrbIXdHk
+https://www.youtube.com/watch?v=Bc5L0bkpK5k
 
 ---full script features---
 
