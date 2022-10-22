@@ -13,7 +13,7 @@ Input:
 specify a few fields, press start!</br>
 
 Process:
-doing some simple math and physics calculations on the armature...</br>
+doing simple math and physics calculations, and modifying the armature accordingly...</br>
 
 Output:
 The shoulder armor will now adjust position based on arm motion,</br>
