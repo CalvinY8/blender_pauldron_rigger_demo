@@ -6,7 +6,7 @@ https://www.youtube.com/watch?v=pIUIZ8oavkg
 
 Terms (loosely defined):</br>
 Blender - free 3d software</br>
-clipping - when 3d geometry intersects, ex: character tries to move, shoulder pad passes through the torso</br>
+clipping - when 3d geometry intersects, ex: character tries to move, shoulder pad passes through the torso. This is problematic.</br>
 armature - skeleton that lets characters move</br>
 
 Input:
