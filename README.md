@@ -20,7 +20,7 @@ The shoulder armor will now adjust position based on arm motion,</br>
 reducing the need to fix clipping by hand (a tedious process)</br>
 
 
----features---
+---features---</br>
 works with A-pose, T-pose, any pose in-between</br>
 works regardless of armature size</br>
 works regardless of upper arm bone length relative to armature</br>
