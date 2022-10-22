@@ -21,6 +21,6 @@ reducing the need to fix clipping by hand (a tedious process)</br>
 
 ---full script features---
 
-works with A-pose and T-pose</br>
+works with A-pose, T-pose, any pose in-between</br>
 works regardless of armature size</br>
 works regardless of upper arm bone length relative to armature</br>
