@@ -2,7 +2,7 @@
 sample code in this repo.
 
 full script demo:</br>
-https://youtu.be/FTx7UeYYRyI
+https://youtu.be/oMKw06UqrU4
 
 Terms:</br>
 Blender - free 3d software</br>
