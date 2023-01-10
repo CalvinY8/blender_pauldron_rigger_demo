@@ -1,26 +1,27 @@
 # blender_pauldron_rigger_demo
 sample code in this repo.
 
-full script demo:</br>
-https://youtu.be/7lNgP9ok93k
+Shoulder Pad Rigger [Blender 2.8+ addon]
 
-Terms:</br>
-Blender - free 3d software</br>
-clipping - when 3d geometry intersects, ex: character tries to move, shoulder pad passes through the torso. This is problematic.</br>
-armature - skeleton that lets characters move</br>
+	for pauldrons, spaulders, shoulder armor
+	good for military/robot/fantasy/sci-fi/fighting/athlete characters
+	works with many common styles of shoulder armor
+	rapidly try out rigging methods
+	
+---What does it do?
 
-Input:
-specify a few fields, press start!</br>
+It makes the shoulder pad move correctly with the arm.<br>
 
-Process:
-doing simple math and physics calculations, and modifying the armature accordingly...</br>
+---Why?<br>
 
-Output:
-The shoulder armor will now adjust position based on arm motion,</br>
-reducing the need to fix clipping by hand (a tedious process)</br>
+Many characters have shoulder pads.<br>
+The most flexible joint in the body is the shoulder.<br>
+Meaning, rigging shoulder pads is a hard problem in 3d graphics.<br>
 
+---Goals<br>
+minimize clipping<br>
+handle wide range of motion<br>
+look good<br>
 
----features---</br>
-works with A-pose, T-pose, any pose in-between</br>
-works regardless of armature size</br>
-works regardless of upper arm bone length relative to armature</br>
+---Full Script Demo<br>
+https://youtu.be/SHL26yFctoM
