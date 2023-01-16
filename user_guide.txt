@@ -1,0 +1,83 @@
+#------------------USER MANUAL----------------------------------
+
+->launch blender from the command line when using this addon.
+messages will appear in the command line.
+
+#---HOW TO USE
+	make sure the shoulder pad in line with the upper arm prior to rigging.
+
+	If your upperarm has multiple bones, in the 'upperarm' field, pick the first upperarm bone.
+		This is usually the bone whose head is at the shoulder joint.
+
+	Similarly, in the 'forearm' field, pick the bone whose head is at the elbow joint.
+	
+	The head is the wide end of the bone.
+	
+	requirements
+		1.bone in 'upperarm' field is pointed at the head of the elbow joint.
+		2.bone in 'forearm' field is child of bone in 'upperarm' field.
+		3.follow .L .R bone naming convention for the script to detect your bones
+
+
+#---ADVICE
+	#hover over elements in the panel for tooltips
+
+	#Before running script, ensure your bone names do not contain the following substrings:
+	["turner.", "pad_ctrl.", "z_locator.", "x_rotator.", "true_elbow", "extension_bone.", "mid_targ"]
+	#   they are used to identify the pauldron rigging bones and may cause errors.
+
+	#armature must be symmetrical for mirroring features to work correctly
+
+	upperarm bone must have a parent. ie, upperarm is parented to the collarbone
+
+	#click the button once. double clicking can cause glitching.
+
+	#before running script, apply all transformations to armature & meshes. clear any poses.
+
+
+#---TROUBLESHOOTING
+	after the bones are generated, you may have to adjust the location or rotation of your pauldron mesh in edit mode.
+
+	works best on characters with wide, square shoulders
+
+	if the rig doesn't do what you want, there are a few things you can try, in this order:
+		1. try adjusting the 'strength' value manually, or try another rigging style
+		2. select the pauldron object, tab into in edit mode, adjust it's rotation/location
+		3. change the influence of pad_ctrl.L (applicable only to style 1 rigging)
+		4. modify or move bones in the rig itself.
+		
+	if you must adjust the position of the generated pauldron-rigging bones, use the sliders.
+	This will keep bones in correct orientation relative to each other.
+
+	Trying to adjust bones in edit mode may cause undesired effects. 
+
+
+#---GENERAL ADVICE
+	in general, rigging pauldrons is hard.
+	is usually easier to do one or more of the following:
+
+	transformations
+	-move the shoulder joints away from the body, giving your character wider shoulders.
+	-make the pauldron smaller, covering less of the torso
+	-move the pauldron geometry further away from the body.
+	-make the torso smaller/narrower
+
+	modelling
+	-move elements of the pauldron to be part of the torso mesh
+	-make the neck muscle (trapezius) smaller
+
+	rigging
+	-IK bones will always try to point at the head of their target bone
+	-but their rotation can be limited in the Bone Properties tab (lower right of screen)
+	
+	-only design a rig to have as much flexibility as you absolutely need.
+	-generally more control = more complexity
+	-if your character is going to be holding a weapon most of the time, or is an background character, or an NPC,
+	   there's no reason to make a rig that can handle doing somersaults.
+	   
+	-use other bones in conjunction with the pauldron rig.
+	 ex: use one or more bicep twist bones, use the clavicle bone when raising the arm above T-pose
+
+	-do not try to make a single universal joint to handle everything.
+	
+	-generally bigger armor means a less flexible character.
