@@ -6,6 +6,7 @@ Shoulder Pad Rigger [Blender 2.8+ addon]
 	for pauldrons, spaulders, shoulder armor
 	good for military/robot/fantasy/sci-fi/fighting/athlete characters
 	works with many common styles of shoulder armor
+	translate your art to 3d without worrying about the rigging
 	rapidly try out rigging methods
 	
 ---What does it do?
