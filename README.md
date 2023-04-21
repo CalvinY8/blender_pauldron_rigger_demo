@@ -1,4 +1,8 @@
 # blender_pauldron_rigger_demo
+
+---Full Script Demo<br>
+https://youtu.be/BH5NBYXHf2w
+
 sample code in this repo.
 
 Shoulder Pad Rigger [Blender 2.8+ addon]
@@ -23,6 +27,3 @@ Meaning, rigging shoulder pads is a hard problem in 3d graphics.<br>
 minimize clipping<br>
 handle wide range of motion<br>
 look good<br>
-
----Full Script Demo<br>
-https://youtu.be/BH5NBYXHf2w
